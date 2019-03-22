@@ -2,5 +2,10 @@ h1{
   color:black;
 }
 .top{
-  background-color:blue; 
+  background-color:blue;
+}
+body{
+  background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-048.jpg");
+  background-size: cover;
+  height: 640px;
 }
