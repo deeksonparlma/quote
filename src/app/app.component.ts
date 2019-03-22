@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Manipulate } from './manipulate';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quotes';
+  quotes = [
+        new Manipulate('Dickson','Live to your fullest potential'),
+        new Manipulate('Jakes','Never give up on first attempt'),
+
+    ]
 }

@@ -6,9 +6,14 @@
   </head>
     <body>
     <app-quotes-navbar></app-quotes-navbar>
-    <div class="container">
+    <div class="row container">
       <div class="col-md-4">
         <app-quotes-form></app-quotes-form>
+      </div>
+      <div class="col-md-7"><br><br>
+        <ul>
+          <li *ngFor='let quote of quotes'>{{quote.name}}</li>
+        </ul>
       </div>
     </div>
   </body>
