@@ -9,3 +9,10 @@ body{
   background-size: cover;
   height: 640px;
 }
+.wiseQuotes{
+  background-color: white;
+  opacity: 0.7;
+}
+button{
+  margin-left: 20px;
+}
