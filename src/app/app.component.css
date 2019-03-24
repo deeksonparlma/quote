@@ -16,3 +16,10 @@ body{
 button{
   margin-left: 20px;
 }
+.votes{
+  width: 30px;
+}
+input{
+  padding-right: 10px;
+  
+}
