@@ -13,7 +13,7 @@
       <div class="col-md-7"><br><br>
         <ul class="wiseQuotes">
           <li *ngFor='let quote of quotes'>{{quote.author}} at {{quote.time}} <br> {{quote.content}} <br>
-            <button type="button" class="btn btn-success" name="button">Upvote <span>^</span></button><button type="btn btn-danger" name="button">Downvote <span>v</span></button>
+            <button type="button" class="btn btn-success" name="button">Upvote <span>^</span></button> <input type="text" class="votes" name="" value="0" disabled > <button type="btn btn-danger" name="button">Downvote <span>v</span></button><input type="text" class="votes" name="" value="0" disabled>
             <hr></li>
         </ul>
         <div>
