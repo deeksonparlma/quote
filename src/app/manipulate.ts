@@ -1,3 +1,6 @@
 export class Manipulate {
-    constructor(public vote:number,public author:string,public content:string,public time:string){}
+    constructor(public upVote:number,public downVote:number,public author:string,public content:string,public time:string){}
+}
+export class update {
+    constructor(public voters:number){}
 }

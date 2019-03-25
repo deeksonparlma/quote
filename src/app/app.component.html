@@ -5,16 +5,16 @@
     <title></title>
   </head>
     <body>
-    <app-quotes-navbar></app-quotes-navbar>
+    <app-quotes-navbar></app-quotes-navbar><br><br>
     <div class="row container">
       <div class="col-md-4">
         <app-quotes-form></app-quotes-form>
       </div>
-      <div class="col-md-7"><br><br>
+      <div class="col-md-7" ><br><br>
         <ul class="wiseQuotes">
-          <li *ngFor='let quote of quotes'>{{quote.author}} at {{quote.time}} <br> {{quote.content}} <br>
-            <button type="button" class="btn btn-success" name="button" (click) = 'upVote()'>Upvote <span>^</span></button> <input type="" class="votes" name="" value="{{quote.vote}}" disabled > <button type="btn btn-danger" name="button">Downvote<span>v</span></button><input type="" class="votes" name="" value="{{quote.vote}}" disabled>
-            <hr></li>
+          <div *ngFor='let quote of quotes;let i=index'>{{quote.author}} at {{quote.time}} <br> {{quote.content}} <br>
+            <button type="button" class="btn btn-success" name="button" (click) = "upvote()">Upvote ^</button><span>{{quote.upVote}}</span> <button type="button" class="btn btn-danger" name="button" (click) = 'downVote()'>Downvote <span>v</span></button><span>{{quote.downVote}}</span>
+            <hr></div>
         </ul>
         <div>
           <p></p>
