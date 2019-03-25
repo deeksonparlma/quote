@@ -12,8 +12,8 @@
       </div>
       <div class="col-md-7" ><br><br>
         <ul class="wiseQuotes">
-          <div *ngFor='let quote of quotes;let i=index'>{{quote.author}} at {{quote.time}} <br> {{quote.content}} <br>
-            <button type="button" class="btn btn-success" name="button" (click) = "upvote()">Upvote ^</button><span>{{upvotes}}</span> <button type="button" class="btn btn-danger" name="button" (click) = 'downvote()'>Downvote <span>v</span></button><span>{{downvotes}}</span>
+          <div *ngFor='let quote of quotes;let i=index'>{{quote.author}} posted on  {{quote.time|date}}. <em>{{quote.time|dateCount}} days ago</em> <br> {{quote.content}} <br>
+            <app-votecount></app-votecount>
             <hr></div>
         </ul>
         <div>

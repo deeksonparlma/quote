@@ -13,12 +13,9 @@ export class AppComponent {
   upvotes:number = 0 ;
   downvotes:number = 0 ;
   quotes = [
-        new Manipulate(this.voters[0],this.voters[1],'Dickson','Live to your fullest potential',Date()),
-        new Manipulate(this.voters[0],this.voters[1],'Jakes','Never give up on first attempt',Date()),
-        new Manipulate(this.voters[0],this.voters[1],'Mark','Keep trying',Date()),
-        new Manipulate(this.voters[0],this.voters[1],'Juliet','It can be done only by your participation',Date()),
-        new Manipulate(this.voters[0],this.voters[1],'Job','Always seek help from your counter-part if you feel stuck',Date()),
-        new Manipulate(this.voters[0],this.voters[1],'June','Don"t be an asshole',Date()),
+        new Manipulate('Dickson','Live to your fullest potential',new Date(2019,1,25)),
+        new Manipulate('Jakes','Never give up on first attempt',new Date(2019,1,6)),
+        new Manipulate('Mark','Keep trying',new Date(2019,1,24)),
     ]
     upvote(){
       this.upvotes +=1 ;
