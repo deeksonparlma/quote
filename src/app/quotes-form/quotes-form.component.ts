@@ -8,7 +8,7 @@ import { Manipulate } from '../manipulate';
 })
 export class QuotesFormComponent implements OnInit {
   title = 'quotes'
-  newquote=new Manipulate(0,0,"","",Date());
+  newquote=new Manipulate("","",new Date());
   @Output() addquote=new EventEmitter<Manipulate>();
   submitQuote(){
         this.addquote.emit(this.newquote);
