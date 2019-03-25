@@ -5,7 +5,7 @@ This is a website that enables a user to add a quote or view a quote.The user ca
 Author :[Dickson](https://www.github.com/deeksonparlma)
 [repository](https://www.github.com/deeksonparlma/quotes)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+
 
 ## Features
 * User-friendly intaface
@@ -28,7 +28,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Known Bugs
 There are no bugs at the moment but if you encounter any kindly reach me via my email :dicksonparlma@gmail.com
- To develop this program in the website i used atom as my text editor.The site is built entirely on Angular.
+ To develop this program in the website i used atom as my text editor.This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 ## Support and contact details
  incase you come across errors,feel free to reach me
 email :dicksonparlma@gmail.com

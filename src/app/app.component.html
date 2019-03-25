@@ -11,7 +11,6 @@
         <app-quotes-form (addquote)="addNewquote($event)"></app-quotes-form>
       </div>
       <div class="col-md-7" ><br><br>
-        <app-popularquote></app-popularquote><br>
         <ul class="wiseQuotes">
           <div *ngFor='let quote of quotes;let i=index'>{{quote.author}} posted on  {{quote.time|date}}. <em>{{quote.time|dateCount}} days ago</em> <br> {{quote.content}} <br>
             <app-votecount></app-votecount>
