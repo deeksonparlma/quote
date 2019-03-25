@@ -25,6 +25,6 @@ downvote(){
 }
 
 addNewquote(quote){
-        this.quotes.push(quote)
+        this.quotes.unshift(quote)
     }
 }
