@@ -10,6 +10,7 @@ import { QuotesNavbarComponent } from './quotes-navbar/quotes-navbar.component';
 import { DateCountPipe } from './date-count.pipe';
 import { VotecountComponent } from './votecount/votecount.component';
 import { HighlightDirective } from './highlight.directive';
+import { PopularquoteComponent } from './popularquote/popularquote.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HighlightDirective } from './highlight.directive';
     QuotesNavbarComponent,
     DateCountPipe,
     VotecountComponent,
-    HighlightDirective
+    HighlightDirective,
+    PopularquoteComponent
   ],
   imports: [
     BrowserModule,
