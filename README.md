@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Behavior Driven Development
 
 |     Behavior    | Input      | Output                           |   
-| :-------------: | :--------: | :- ----------------------------: |
+| :-------------: | :--------: | : -----------------------------: |
 |  fill form      | submit     | display added quote on html      |
 |  upvote         | click once |        add upvotes by one        |
 |  downvote       | click once |   add downvotes vote by one      |
