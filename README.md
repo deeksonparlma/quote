@@ -1,7 +1,8 @@
 # Quotes
 ## Description
-This is a website that enables a user to add a quote or view a quote.The user can also vote for a quote;upvote or downvote .
-# Quotes
+This is a website that enables a user to add a quote or view a quote.The user can also vote for a quote;upvote or downvote .link to live page: https://deeksonparlma.github.io/quote/
+## Author Dickson Nyaigoti
+github : https://www.githu.com/deeksonparlma
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
