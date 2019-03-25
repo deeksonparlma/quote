@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Output , EventEmitter } from '@angular/core';
+import { Manipulate } from '../manipulate';
 
 @Component({
   selector: 'app-quotes-form',
@@ -7,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuotesFormComponent implements OnInit {
   title = 'quotes'
+  newquote=new Manipulate(0,0,"","",Date());
+  @Output() addquote=new EventEmitter<Manipulate>();
+  submitQuote(){
+        this.addquote.emit(this.newquote);
+    }
   constructor() { }
 
   ngOnInit() {

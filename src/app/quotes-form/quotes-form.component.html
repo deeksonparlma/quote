@@ -3,15 +3,13 @@
   <h1>{{title}}</h1>
   </div>
   <div class="container">
-    <form>
+    <form (ngSubmit)='submitQuote()' >
       <label for="">Add {{title}}</label>
-      <input type="text" class="form-control" placeholder="Enter author's name" name="" value="" required>
+      <input type="text" [(ngModel)]='newquote.author' class="form-control" placeholder="Enter author's name" name="author"  id="author"  #author='ngModel' value=""  required>
+      <p>{{newquote.author}}</p>
       <label for="">Quote</label>
-      <textarea name="name" rows="5" class="form-control" cols="33" required></textarea>
-      <label for="">Time</label>
-      <input type="time" class="form-control" name="" value="" required>
+      <textarea name="name" [(ngModel)]='newquote.content' name="content" id="content" rows="5" class="form-control" cols="33" required></textarea>
       <br>
       <button type="submit" class="btn btn-success">Add Quote</button>
     </form>
   </div>
-</div>
